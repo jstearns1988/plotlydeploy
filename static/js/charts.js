@@ -92,6 +92,8 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
      title: "Top 10 Bacteria Cultures Found",
+     width: 400,
+     height: 360,
      margin: {
        l: 100,
        r: 100,
@@ -149,8 +151,8 @@ function buildCharts(sample) {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = {
-      width: 500,
-      height: 460,
+      width: 400,
+      height: 360,
       margin: {t: 0, b: 0}
     };
 
